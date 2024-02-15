@@ -5,6 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
         <version>3.2.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
@@ -14,28 +15,57 @@
     <name>SpringPostgress</name>
     <description>SpringPostgress</description>
     <properties>
+=======
+        <!-- Update the version to a valid Spring Boot version -->
+        <version> 3.2.2/version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>org.example</groupId>
+    <artifactId>ResponseBacked</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>ResponseBacked</name>
+    <description>ResponseBacked</description>
+    <properties>
+        <!-- Update Java version to match your environment -->
+>>>>>>> 3c3e1517abda5cf718b0e52355e66716d9f1e6dc
         <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
+=======
+>>>>>>> 3c3e1517abda5cf718b0e52355e66716d9f1e6dc
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
+<<<<<<< HEAD
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
+=======
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+>>>>>>> 3c3e1517abda5cf718b0e52355e66716d9f1e6dc
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+<<<<<<< HEAD
+=======
+
+        <!-- PostgreSQL dependency -->
+
+>>>>>>> 3c3e1517abda5cf718b0e52355e66716d9f1e6dc
     </dependencies>
 
     <build>
@@ -46,5 +76,8 @@
             </plugin>
         </plugins>
     </build>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3c3e1517abda5cf718b0e52355e66716d9f1e6dc
 </project>
